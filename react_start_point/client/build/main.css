@@ -1,0 +1,57 @@
+.flexContainer {
+  display: flex;
+}
+
+.NavFlex {
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+}
+
+.title {
+  float: left;
+  font-size: 1.8em;
+  color: white;
+  padding: 5px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 2.5px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display:inline-block;
+  padding-left: 25px;
+}
+
+a {
+  font-size: 1.5em;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+body {
+  background-image: url("http://news.nationalgeographic.com/content/dam/news/2015/12/13/BookTalk%20K2/01BookTalkK2.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+.text {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 2.5px;
+  display: block;
+  text-align: center;
+  clear: both;
+}
